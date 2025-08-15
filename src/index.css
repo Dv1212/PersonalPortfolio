@@ -7,40 +7,40 @@
 @layer base {
   :root {
     /* Background & Core Colors */
-    --background: 240 10% 3.9%;
+    --background: 222 47% 11%;
     --foreground: 210 40% 98%;
-    --surface: 240 8% 6%;
-    --surface-glass: 240 8% 8%;
+    --surface: 222 40% 15%;
+    --surface-glass: 222 40% 18%;
 
     /* Brand Colors - AI/Tech Inspired */
-    --primary: 249 100% 65%;
+    --primary: 217 91% 60%;
     --primary-glow: 263 70% 80%;
-    --primary-foreground: 240 10% 3.9%;
+    --primary-foreground: 222 47% 11%;
     
     --secondary: 268 83% 58%;
     --secondary-glow: 280 100% 75%;
-    --secondary-foreground: 240 10% 3.9%;
+    --secondary-foreground: 222 47% 11%;
 
     /* Accent Colors */
-    --accent: 200 98% 39%;
+    --accent: 199 89% 48%;
     --accent-glow: 180 100% 50%;
-    --accent-foreground: 240 10% 3.9%;
+    --accent-foreground: 222 47% 11%;
 
     /* Neutral Colors */
-    --muted: 240 5% 15%;
-    --muted-foreground: 240 5% 75%;
-    --border: 240 9% 20%;
-    --input: 240 8% 10%;
-    --ring: 249 100% 65%;
+    --muted: 222 40% 20%;
+    --muted-foreground: 210 20% 85%;
+    --border: 222 40% 25%;
+    --input: 222 40% 18%;
+    --ring: 217 91% 60%;
 
     /* Glass & Surface */
-    --card: 240 8% 6%;
+    --card: 222 40% 15%;
     --card-foreground: 210 40% 98%;
-    --popover: 240 8% 8%;
+    --popover: 222 40% 18%;
     --popover-foreground: 210 40% 98%;
 
     /* Status Colors */
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
     --success: 142 76% 36%;
     --warning: 38 92% 50%;
