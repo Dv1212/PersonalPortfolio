@@ -25,11 +25,11 @@ const AboutSection = () => {
           <div className="flex justify-center lg:order-2">
             <div className="relative">
               <div className="w-80 h-80 rounded-full glass-card p-2 hover-lift">
-                <div className="w-full h-full rounded-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
-                  <div className="w-72 h-72 rounded-full bg-muted/50 flex items-center justify-center text-6xl font-bold gradient-text">
-                    DV
-                  </div>
-                </div>
+                <img 
+                  src="/lovable-uploads/5f956ae4-ba19-4c02-a4b1-f56066e1fabd.png"
+                  alt="Dhruv Viras - Professional Photo"
+                  className="w-full h-full rounded-full object-cover"
+                />
               </div>
               {/* Floating elements */}
               <div className="absolute -top-4 -right-4 w-8 h-8 bg-primary rounded-full animate-float"></div>
