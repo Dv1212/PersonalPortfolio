@@ -92,7 +92,7 @@
   }
 
   body {
-    @apply bg-background text-foreground font-body;
+    @apply bg-background text-foreground;
     background: var(--gradient-mesh), hsl(var(--background));
     overflow-x: hidden;
     font-family: var(--font-body);
