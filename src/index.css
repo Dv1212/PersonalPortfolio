@@ -1,70 +1,68 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* Modern Portfolio Design System - 2025 Ready */
-
 @layer base {
   :root {
     /* Background & Core Colors */
-    --background: 222 47% 11%;
-    --foreground: 210 40% 98%;
-    --surface: 222 40% 15%;
-    --surface-glass: 222 40% 18%;
+    --background: 0 0% 100%; /* White background */
+    --foreground: 222 47% 11%; /* Dark text for contrast */
+    --surface: 0 0% 98%; /* Light gray for cards */
+    --surface-glass: 0 0% 100%;
 
-    /* Brand Colors - AI/Tech Inspired */
-    --primary: 217 91% 60%;
-    --primary-glow: 263 70% 80%;
-    --primary-foreground: 222 47% 11%;
+    /* Brand Colors - same hues, tuned for light bg */
+    --primary: 217 91% 40%; /* Slightly deeper blue for readability */
+    --primary-glow: 263 70% 55%;
+    --primary-foreground: 0 0% 100%;
     
-    --secondary: 268 83% 58%;
-    --secondary-glow: 280 100% 75%;
-    --secondary-foreground: 222 47% 11%;
+    --secondary: 268 83% 40%;
+    --secondary-glow: 280 100% 60%;
+    --secondary-foreground: 0 0% 100%;
 
     /* Accent Colors */
-    --accent: 199 89% 48%;
-    --accent-glow: 180 100% 50%;
-    --accent-foreground: 222 47% 11%;
+    --accent: 199 89% 38%;
+    --accent-glow: 180 100% 40%;
+    --accent-foreground: 0 0% 100%;
 
     /* Neutral Colors */
-    --muted: 222 40% 20%;
-    --muted-foreground: 210 20% 85%;
-    --border: 222 40% 25%;
-    --input: 222 40% 18%;
-    --ring: 217 91% 60%;
+    --muted: 0 0% 94%;
+    --muted-foreground: 222 47% 25%;
+    --border: 0 0% 85%;
+    --input: 0 0% 100%;
+    --ring: 217 91% 40%;
 
     /* Glass & Surface */
-    --card: 222 40% 15%;
-    --card-foreground: 210 40% 98%;
-    --popover: 222 40% 18%;
-    --popover-foreground: 210 40% 98%;
+    --card: 0 0% 98%;
+    --card-foreground: 222 47% 11%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
 
     /* Status Colors */
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 210 40% 98%;
-    --success: 142 76% 36%;
-    --warning: 38 92% 50%;
+    --destructive: 0 84% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --success: 142 76% 28%;
+    --warning: 38 92% 45%;
 
     /* Design System Properties */
     --radius: 0.75rem;
 
     /* Sidebar Variables */
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 222 47% 11%;
+    --sidebar-primary: 224.3 76.3% 40%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-accent: 0 0% 94%;
+    --sidebar-accent-foreground: 222 47% 11%;
+    --sidebar-border: 0 0% 85%;
+    --sidebar-ring: 217.2 91.2% 40%;
 
     /* Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
     --gradient-secondary: linear-gradient(135deg, hsl(var(--secondary)), hsl(var(--secondary-glow)));
     --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--accent-glow)));
     --gradient-glass: linear-gradient(135deg, 
-      hsla(var(--surface-glass), 0.1),
-      hsla(var(--surface-glass), 0.05)
+      hsla(var(--surface-glass), 0.4),
+      hsla(var(--surface-glass), 0.2)
     );
     --gradient-mesh: radial-gradient(ellipse at top left, 
       hsla(var(--primary), 0.15) 0%, 
@@ -75,9 +73,9 @@
     );
 
     /* Shadows & Effects */
-    --shadow-glass: 0 8px 32px hsla(var(--primary), 0.1);
+    --shadow-glass: 0 8px 32px hsla(var(--primary), 0.15);
     --shadow-glow: 0 0 40px hsla(var(--primary), 0.3);
-    --shadow-soft: 0 4px 20px hsla(0, 0%, 0%, 0.1);
+    --shadow-soft: 0 4px 20px hsla(0, 0%, 0%, 0.05);
     --blur-glass: 16px;
 
     /* Typography */
